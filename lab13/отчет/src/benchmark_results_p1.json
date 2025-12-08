@@ -1,0 +1,104 @@
+{
+  "500x250": {
+    "size": [
+      500,
+      250
+    ],
+    "num_procs": 1,
+    "simple": {
+      "version": "simple",
+      "avg_time": 0.005066792170206706,
+      "std_time": 0.0002560895479852959,
+      "min_time": 0.0048100948333740234,
+      "max_time": 0.005416393280029297,
+      "avg_iterations": 86.0,
+      "avg_residual": 1.836203800434445e-08
+    },
+    "optimized_basic": {
+      "version": "optimized_basic",
+      "avg_time": 0.005864699681599935,
+      "std_time": 0.0005587594738922515,
+      "min_time": 0.0053789615631103516,
+      "max_time": 0.006647348403930664,
+      "avg_iterations": 86.0,
+      "avg_residual": 1.836203800434445e-08
+    },
+    "optimized_async": {
+      "version": "optimized_async",
+      "avg_time": 0.0049597422281901045,
+      "std_time": 0.00011274322504090503,
+      "min_time": 0.00487518310546875,
+      "max_time": 0.0051190853118896484,
+      "avg_iterations": 86.0,
+      "avg_residual": 1.836203800434445e-08
+    }
+  },
+  "1000x500": {
+    "size": [
+      1000,
+      500
+    ],
+    "num_procs": 1,
+    "simple": {
+      "version": "simple",
+      "avg_time": 0.027050574620564777,
+      "std_time": 0.0004381350936402192,
+      "min_time": 0.026528120040893555,
+      "max_time": 0.02760028839111328,
+      "avg_iterations": 89.0,
+      "avg_residual": 1.8085397105060104e-08
+    },
+    "optimized_basic": {
+      "version": "optimized_basic",
+      "avg_time": 0.02928328514099121,
+      "std_time": 0.0005587006926216257,
+      "min_time": 0.02871394157409668,
+      "max_time": 0.030042409896850586,
+      "avg_iterations": 89.0,
+      "avg_residual": 1.8085397105060104e-08
+    },
+    "optimized_async": {
+      "version": "optimized_async",
+      "avg_time": 0.029313166936238606,
+      "std_time": 0.00023622732380056371,
+      "min_time": 0.029075145721435547,
+      "max_time": 0.029635190963745117,
+      "avg_iterations": 89.0,
+      "avg_residual": 1.8085397105060104e-08
+    }
+  },
+  "2000x1000": {
+    "size": [
+      2000,
+      1000
+    ],
+    "num_procs": 1,
+    "simple": {
+      "version": "simple",
+      "avg_time": 0.11341015497843425,
+      "std_time": 0.0019048356382808753,
+      "min_time": 0.11075901985168457,
+      "max_time": 0.11514949798583984,
+      "avg_iterations": 92.0,
+      "avg_residual": 1.6892682797855404e-08
+    },
+    "optimized_basic": {
+      "version": "optimized_basic",
+      "avg_time": 0.10704572995503743,
+      "std_time": 0.0013015466014335787,
+      "min_time": 0.10522890090942383,
+      "max_time": 0.10820984840393066,
+      "avg_iterations": 92.0,
+      "avg_residual": 1.6892682797855404e-08
+    },
+    "optimized_async": {
+      "version": "optimized_async",
+      "avg_time": 0.10720197359720866,
+      "std_time": 0.0017491597358239475,
+      "min_time": 0.10500025749206543,
+      "max_time": 0.10927939414978027,
+      "avg_iterations": 92.0,
+      "avg_residual": 1.6892682797855404e-08
+    }
+  }
+}
